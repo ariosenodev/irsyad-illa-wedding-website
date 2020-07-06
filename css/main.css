@@ -41,6 +41,18 @@ section {
     padding: 120px 0px;
 }
 
+.bg-cream {
+    background-color: #FFF9EC;
+}
+
+.bg-cream-2 {
+    background-color: #FFFCF4;
+}
+
+.bg-green {
+    background-color: #4F583D;
+}
+
 .wrapper {
     background: white;
 }
