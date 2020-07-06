@@ -26,14 +26,19 @@ header {
     font-size: 12px;
 }
 
-.bottom-bar-nav a:active, a:focus {
+.bottom-bar-nav a:active {
+    text-decoration: none;
+    color: #48BB78;
+}
+
+.bottom-bar-nav a:active {
     text-decoration: none;
     color: #48BB78;
 }
 
 section {
     height: 100vh;
-    padding: 64px 0px;
+    padding: 120px 0px;
 }
 
 .wrapper {
