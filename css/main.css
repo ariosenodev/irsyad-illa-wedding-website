@@ -33,6 +33,7 @@ header {
 
 section {
     height: 100vh;
+    padding: 64px 0px;
 }
 
 .wrapper {
