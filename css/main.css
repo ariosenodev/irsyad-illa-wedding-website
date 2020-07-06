@@ -8,12 +8,16 @@ body {
 }
 
 header {
-    height: 10vh;
+    height: 32px;
     background-image: url(../assets/img/bg.png);
     background-position: top center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: contain; /* Resize the background image to cover the entire container */
     background-attachment: fixed;
+}
+
+.bottom-bar-nav {
+    overflow: scroll;
 }
 
 .bottom-bar-nav a {
