@@ -1,10 +1,10 @@
 body {
     font-family: 'Bentham', serif;
-    background-image: url(../assets/img/bg.png);
-    /* background-position: center center; Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
-    background-attachment: fixed;
+    /* background-image: url(../assets/img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed; */
 }
 
 header {
@@ -19,6 +19,22 @@ header {
 .bottom-bar-nav {
     overflow: scroll;
 }
+
+.bg-image {
+    /* background-image: url(../assets/img/bg.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+
+    background-image: url(../assets/img/bg.png); /* The image used */
+    background-color: #fff; /* Used if the image is unavailable */
+    height: 10%; /* You must set a specified height */
+    width: 100%;
+    /* background-position: center; Center the image */
+    background-repeat: repeat-x; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+} 
 
 .font-serif {
     font-family: 'Dancing Script', cursive;
